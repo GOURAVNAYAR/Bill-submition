@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  
+<hibernate-mapping>
+<class name = "com.billdetales.Customerbill" table= "custo_bill">
+
+<id name ="customerbillId" column = "custo_billId"/>
+<property name ="customerbillLateamount" column = "custo_lateamount" length = "10"/>
+<property name ="customerbillLastdateforsubmit" column = "custo_lastdateforsubmit" length = "10"/>
+<property name ="customerbillSubmittype" column = "custo_submi_type" length = "10"/>
+</class>
+</hibernate-mapping>
+

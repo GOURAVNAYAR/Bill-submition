@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+"-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+"http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+  
+<hibernate-mapping>
+<class name = "com.customer.Customer" table= "custo_class_b">
+
+<id name ="customerGsiNumber" column = "cust_gsi_num"/>
+<property name ="customerName" column = "custo_name" length = "10"/>
+<property name ="customerAddress" column = "custo_address" length = "10"/>
+<property name ="customerMobile" column = "custo_mobile" length = "10"/>
+<property name ="customerZone" column = "custo_zone" length = "10"/>
+<property name ="customerPolenumber" column = "custo_polenum" length = "10"/>
+</class>
+</hibernate-mapping>
+
