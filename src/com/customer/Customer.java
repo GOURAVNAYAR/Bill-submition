@@ -4,7 +4,7 @@ public class Customer {  //Is parant class
 
 	private Integer customerGsiNumber;
 	private String customerName;
-	private String customerAddress;
+	private String customerAddress; 
 	private String customerMobile;
 	private String customerZone;
 	private String customerPolenumber;
