@@ -13,6 +13,7 @@
 <property name ="customerMobile" column = "custo_mobile" length = "10"/>
 <property name ="customerZone" column = "custo_zone" length = "10"/>
 <property name ="customerPolenumber" column = "custo_polenum" length = "10"/>
+  
 </class>
 </hibernate-mapping>
 
