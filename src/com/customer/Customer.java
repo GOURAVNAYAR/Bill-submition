@@ -55,6 +55,27 @@ public class Customer {  //Is parant class
 
 	public void setCustomerPolenumber(String customerPolenumber) {
 		this.customerPolenumber = customerPolenumber;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
 	}
 
 }
